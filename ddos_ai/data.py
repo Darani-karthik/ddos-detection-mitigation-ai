@@ -46,7 +46,7 @@ def load_flows_csv(path: str | Path, block: int = 60) -> pd.DataFrame:
     if missing:
         raise ValueError(f"{path}: missing columns {missing}")
     for col in ("src", "dst"):
-        if df[col].dtype == object:
+        if not pd.api.types.is_numeric_dtype(df[col]):   # dotted quads (object dtype, or str dtype in pandas 3)
             df[col] = df[col].map(ip_to_int)
     if "scenario_id" not in df.columns:
         df["scenario_id"] = (df["t"] - df["t"].min()) // block
