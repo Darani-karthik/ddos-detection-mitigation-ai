@@ -1,0 +1,138 @@
+{
+  "no mitigation": {
+    "attack_packets_dropped": 0.0,
+    "legit_packets_dropped": 0.0,
+    "legit_flows_dropped": 0.0,
+    "legit_packets_dropped_flash": 0.0,
+    "peak_victim_load_reduction": 0.0,
+    "time_to_mitigate": {
+      "syn_spoof": NaN,
+      "udp": NaN,
+      "icmp": NaN,
+      "http": NaN,
+      "pulse": NaN,
+      "mixed": NaN
+    },
+    "time_to_mitigate_median": NaN,
+    "attack_scenarios_never_mitigated": 22
+  },
+  "LightGBM / naive (block on first flag)": {
+    "attack_packets_dropped": 0.9737759818257782,
+    "legit_packets_dropped": 0.12830003958244038,
+    "legit_flows_dropped": 0.04330652550137432,
+    "legit_packets_dropped_flash": 0.2388594370383515,
+    "peak_victim_load_reduction": 0.654038631033298,
+    "time_to_mitigate": {
+      "syn_spoof": NaN,
+      "udp": 1.5,
+      "icmp": 1.0,
+      "http": 5.5,
+      "pulse": 1.0,
+      "mixed": 1.0
+    },
+    "time_to_mitigate_median": 1.0,
+    "attack_scenarios_never_mitigated": 4
+  },
+  "LightGBM / block sources (2 strikes)": {
+    "attack_packets_dropped": 0.9527757468142887,
+    "legit_packets_dropped": 0.03767873579775013,
+    "legit_flows_dropped": 0.010699379008449557,
+    "legit_packets_dropped_flash": 0.08898032517800501,
+    "peak_victim_load_reduction": 0.5417606549050656,
+    "time_to_mitigate": {
+      "syn_spoof": NaN,
+      "udp": 2.5,
+      "icmp": 2.0,
+      "http": 9.0,
+      "pulse": 2.0,
+      "mixed": 2.0
+    },
+    "time_to_mitigate_median": 2.0,
+    "attack_scenarios_never_mitigated": 4
+  },
+  "LightGBM / block + protect mode": {
+    "attack_packets_dropped": 0.9650524858993106,
+    "legit_packets_dropped": 0.05646938684691901,
+    "legit_flows_dropped": 0.05581797821439479,
+    "legit_packets_dropped_flash": 0.08898032517800501,
+    "peak_victim_load_reduction": 0.5597018269819691,
+    "time_to_mitigate": {
+      "syn_spoof": 2.0,
+      "udp": 2.5,
+      "icmp": 2.0,
+      "http": 9.0,
+      "pulse": 2.0,
+      "mixed": 2.0
+    },
+    "time_to_mitigate_median": 2.0,
+    "attack_scenarios_never_mitigated": 0
+  },
+  "LSTM / naive (block on first flag)": {
+    "attack_packets_dropped": 0.9761339304365991,
+    "legit_packets_dropped": 0.05464625243291479,
+    "legit_flows_dropped": 0.02389290440802199,
+    "legit_packets_dropped_flash": 0.00039926358050706474,
+    "peak_victim_load_reduction": 0.6600289807442374,
+    "time_to_mitigate": {
+      "syn_spoof": NaN,
+      "udp": 1.0,
+      "icmp": 1.0,
+      "http": 5.0,
+      "pulse": 1.0,
+      "mixed": 1.0
+    },
+    "time_to_mitigate_median": 1.0,
+    "attack_scenarios_never_mitigated": 4
+  },
+  "LSTM / block sources (2 strikes)": {
+    "attack_packets_dropped": 0.9608575308126175,
+    "legit_packets_dropped": 0.038467574017992445,
+    "legit_flows_dropped": 0.013997760358342666,
+    "legit_packets_dropped_flash": 0.0,
+    "peak_victim_load_reduction": 0.5468397544106004,
+    "time_to_mitigate": {
+      "syn_spoof": NaN,
+      "udp": 2.0,
+      "icmp": 2.0,
+      "http": 7.5,
+      "pulse": 2.0,
+      "mixed": 2.0
+    },
+    "time_to_mitigate_median": 2.0,
+    "attack_scenarios_never_mitigated": 4
+  },
+  "LSTM / block + protect mode": {
+    "attack_packets_dropped": 0.9731342698976394,
+    "legit_packets_dropped": 0.05725822506716133,
+    "legit_flows_dropped": 0.059116359564287894,
+    "legit_packets_dropped_flash": 0.0,
+    "peak_victim_load_reduction": 0.5647809264875039,
+    "time_to_mitigate": {
+      "syn_spoof": 2.0,
+      "udp": 2.0,
+      "icmp": 2.0,
+      "http": 7.5,
+      "pulse": 2.0,
+      "mixed": 2.0
+    },
+    "time_to_mitigate_median": 2.0,
+    "attack_scenarios_never_mitigated": 0
+  },
+  "oracle detector / block + protect mode": {
+    "attack_packets_dropped": 0.9781700438688113,
+    "legit_packets_dropped": 0.018790651049168886,
+    "legit_flows_dropped": 0.04511859920594523,
+    "legit_packets_dropped_flash": 0.0,
+    "peak_victim_load_reduction": 0.5708160917823157,
+    "time_to_mitigate": {
+      "syn_spoof": 2.0,
+      "udp": 2.0,
+      "icmp": 2.0,
+      "http": 2.0,
+      "pulse": 2.0,
+      "mixed": 2.0
+    },
+    "time_to_mitigate_median": 2.0,
+    "attack_scenarios_never_mitigated": 0
+  }
+}

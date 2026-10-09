@@ -1,0 +1,192 @@
+{
+  "syn_spoof": {
+    "GNB": {
+      "recall": 0.0,
+      "false_positive_rate": 0.14529001798561147,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.4103580525620769,
+      "attack_records": 63733,
+      "scenarios": 18
+    },
+    "LightGBM": {
+      "recall": 0.0,
+      "false_positive_rate": 0.026135341726618688,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.5081123761594337,
+      "attack_records": 63733,
+      "scenarios": 18
+    },
+    "FNN": {
+      "recall": 3.1380917264211636e-05,
+      "false_positive_rate": 0.01927832733812951,
+      "f1": 6.176270767710458e-05,
+      "precision": 0.0019398642095053346,
+      "roc_auc": 0.8224472588291376,
+      "attack_records": 63733,
+      "scenarios": 18
+    },
+    "LSTM": {
+      "recall": 0.23512152260210567,
+      "false_positive_rate": 0.013676558752997559,
+      "f1": 0.3772278723190011,
+      "precision": 0.9535475660197263,
+      "roc_auc": 0.9189035898534714,
+      "attack_records": 63733,
+      "scenarios": 18
+    }
+  },
+  "udp": {
+    "GNB": {
+      "recall": 0.0,
+      "false_positive_rate": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.07183557276288827,
+      "attack_records": 5145,
+      "scenarios": 18
+    },
+    "LightGBM": {
+      "recall": 0.08940719144800778,
+      "false_positive_rate": 0.007035578118088193,
+      "f1": 0.1549082337093787,
+      "precision": 0.5793450881612091,
+      "roc_auc": 0.9777596152706474,
+      "attack_records": 5145,
+      "scenarios": 18
+    },
+    "FNN": {
+      "recall": 0.20738581146744411,
+      "false_positive_rate": 0.003391401428180174,
+      "f1": 0.3348501490663738,
+      "precision": 0.8688925081433225,
+      "roc_auc": 0.9574042199671291,
+      "attack_records": 5145,
+      "scenarios": 18
+    },
+    "LSTM": {
+      "recall": 0.2971817298347911,
+      "false_positive_rate": 0.0007583257851832004,
+      "f1": 0.4557377049180328,
+      "precision": 0.9769968051118211,
+      "roc_auc": 0.9662078328928702,
+      "attack_records": 5145,
+      "scenarios": 18
+    }
+  },
+  "icmp": {
+    "GNB": {
+      "recall": 0.0,
+      "false_positive_rate": 0.0006101281269066394,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.023428920073215398,
+      "attack_records": 4758,
+      "scenarios": 18
+    },
+    "LightGBM": {
+      "recall": 0.5767129045817571,
+      "false_positive_rate": 0.008158284668351778,
+      "f1": 0.6885821831869511,
+      "precision": 0.8542963885429639,
+      "roc_auc": 0.973414501294356,
+      "attack_records": 4758,
+      "scenarios": 18
+    },
+    "FNN": {
+      "recall": 0.0,
+      "false_positive_rate": 0.012376884860106352,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.059572182319459245,
+      "attack_records": 4758,
+      "scenarios": 18
+    },
+    "LSTM": {
+      "recall": 0.00546448087431694,
+      "false_positive_rate": 0.006972892878933101,
+      "f1": 0.010030864197530864,
+      "precision": 0.06103286384976526,
+      "roc_auc": 0.7170970299367263,
+      "attack_records": 4758,
+      "scenarios": 18
+    }
+  },
+  "http": {
+    "GNB": {
+      "recall": 0.0,
+      "false_positive_rate": 0.012639640142010022,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.2651077056513398,
+      "attack_records": 5279,
+      "scenarios": 18
+    },
+    "LightGBM": {
+      "recall": 0.0,
+      "false_positive_rate": 0.0012825517202922354,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.6828914453915395,
+      "attack_records": 5279,
+      "scenarios": 18
+    },
+    "FNN": {
+      "recall": 0.0,
+      "false_positive_rate": 0.0014126656629305234,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.4225576147675272,
+      "attack_records": 5279,
+      "scenarios": 18
+    },
+    "LSTM": {
+      "recall": 0.0,
+      "false_positive_rate": 0.0012639640142010355,
+      "f1": 0.0,
+      "precision": 0.0,
+      "roc_auc": 0.34689579023174744,
+      "attack_records": 5279,
+      "scenarios": 18
+    }
+  },
+  "pulse": {
+    "GNB": {
+      "recall": 0.9772727272727273,
+      "false_positive_rate": 0.026782197715636058,
+      "f1": 0.6377368854710245,
+      "precision": 0.4732980024459845,
+      "roc_auc": 0.9964656270910289,
+      "attack_records": 1188,
+      "scenarios": 12
+    },
+    "LightGBM": {
+      "recall": 0.984006734006734,
+      "false_positive_rate": 0.005016479757882331,
+      "f1": 0.8995767602924201,
+      "precision": 0.8284904323175053,
+      "roc_auc": 0.9996204173252742,
+      "attack_records": 1188,
+      "scenarios": 12
+    },
+    "FNN": {
+      "recall": 0.7651515151515151,
+      "false_positive_rate": 0.0035032441284384985,
+      "f1": 0.8022947925860549,
+      "precision": 0.8432282003710575,
+      "roc_auc": 0.97045421567094,
+      "attack_records": 1188,
+      "scenarios": 12
+    },
+    "LSTM": {
+      "recall": 0.6885521885521886,
+      "false_positive_rate": 0.0011193797806844374,
+      "f1": 0.7941747572815533,
+      "precision": 0.9380733944954128,
+      "roc_auc": 0.9613585569981582,
+      "attack_records": 1188,
+      "scenarios": 12
+    }
+  }
+}

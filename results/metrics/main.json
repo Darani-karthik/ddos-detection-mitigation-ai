@@ -1,0 +1,784 @@
+{
+  "GNB": [
+    {
+      "tuned": {
+        "threshold": 0.9947145604549752,
+        "accuracy": 0.9554514992696967,
+        "balanced_accuracy": 0.8886388694428835,
+        "precision": 0.9113041273061561,
+        "recall": 0.7915198237885462,
+        "specificity": 0.9857579150972208,
+        "false_positive_rate": 0.014242084902779228,
+        "f1": 0.8471988919341055,
+        "confusion_matrix": [
+          [
+            96831,
+            1399
+          ],
+          [
+            3786,
+            14374
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9498668270469972,
+        "balanced_accuracy": 0.9006363963744175,
+        "precision": 0.8464608984089503,
+        "recall": 0.8290748898678414,
+        "specificity": 0.9721979028809936,
+        "false_positive_rate": 0.027802097119006386,
+        "f1": 0.837677692157899,
+        "confusion_matrix": [
+          [
+            95499,
+            2731
+          ],
+          [
+            3104,
+            15056
+          ]
+        ]
+      },
+      "roc_auc": 0.8936926075007814,
+      "pr_auc": 0.8620171144613246,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.0,
+          "icmp": 0.15890083632019117,
+          "pulse": 0.9885386819484241,
+          "syn_spoof": 1.0,
+          "udp": 0.5748762376237624
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.02796394730760342,
+          "flash": 0.0
+        },
+        "macro_recall": 0.5444631511784754
+      },
+      "seed": 0,
+      "info": {
+        "parameters": 60
+      },
+      "test_rows": 116390,
+      "test_scenarios": 28
+    },
+    {
+      "tuned": {
+        "threshold": 0.9915527188611369,
+        "accuracy": 0.9625613079019073,
+        "balanced_accuracy": 0.9315111978582624,
+        "precision": 0.9471544715447154,
+        "recall": 0.8765989465763732,
+        "specificity": 0.9864234491401518,
+        "false_positive_rate": 0.013576550859848213,
+        "f1": 0.9105119187182493,
+        "confusion_matrix": [
+          [
+            85008,
+            1170
+          ],
+          [
+            2952,
+            20970
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9538237965485922,
+        "balanced_accuracy": 0.9294629672733117,
+        "precision": 0.8996181586762834,
+        "recall": 0.8863807373965388,
+        "specificity": 0.9725451971500847,
+        "false_positive_rate": 0.027454802849915305,
+        "f1": 0.8929503916449085,
+        "confusion_matrix": [
+          [
+            83812,
+            2366
+          ],
+          [
+            2718,
+            21204
+          ]
+        ]
+      },
+      "roc_auc": 0.9375603813843931,
+      "pr_auc": 0.9255335849159585,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.0,
+          "icmp": 0.0944700460829493,
+          "pulse": 0.9607390300230947,
+          "syn_spoof": 1.0,
+          "udp": 0.802007299270073
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.028771929824561403,
+          "flash": 0.007098439516602135
+        },
+        "macro_recall": 0.5714432750752233
+      },
+      "seed": 1,
+      "info": {
+        "parameters": 60
+      },
+      "test_rows": 110100,
+      "test_scenarios": 28
+    },
+    {
+      "tuned": {
+        "threshold": 0.35886300864611526,
+        "accuracy": 0.9462337909992372,
+        "balanced_accuracy": 0.9073770517103985,
+        "precision": 0.8422579938677179,
+        "recall": 0.8479686897083953,
+        "specificity": 0.9667854137124016,
+        "false_positive_rate": 0.033214586287598435,
+        "f1": 0.8451036945474523,
+        "confusion_matrix": [
+          [
+            83858,
+            2881
+          ],
+          [
+            2758,
+            15383
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9465865751334859,
+        "balanced_accuracy": 0.9070236013645121,
+        "precision": 0.8449518569463549,
+        "recall": 0.846535472134943,
+        "specificity": 0.9675117305940811,
+        "false_positive_rate": 0.03248826940591887,
+        "f1": 0.8457429232294306,
+        "confusion_matrix": [
+          [
+            83921,
+            2818
+          ],
+          [
+            2784,
+            15357
+          ]
+        ]
+      },
+      "roc_auc": 0.8830460380048442,
+      "pr_auc": 0.87320067908869,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.0,
+          "icmp": 0.2426952892069171,
+          "pulse": 1.0,
+          "syn_spoof": 1.0,
+          "udp": 0.9739542225730071
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.07888191401160725,
+          "flash": 0.0041992882562277584
+        },
+        "macro_recall": 0.6433299023559849
+      },
+      "seed": 2,
+      "info": {
+        "parameters": 60
+      },
+      "test_rows": 104880,
+      "test_scenarios": 28
+    }
+  ],
+  "LightGBM": [
+    {
+      "tuned": {
+        "threshold": 0.17350375085036307,
+        "accuracy": 0.9914167883838818,
+        "balanced_accuracy": 0.9853543008609211,
+        "precision": 0.9687004970776206,
+        "recall": 0.9765418502202643,
+        "specificity": 0.994166751501578,
+        "false_positive_rate": 0.005833248498422039,
+        "f1": 0.972605369237941,
+        "confusion_matrix": [
+          [
+            97657,
+            573
+          ],
+          [
+            426,
+            17734
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9914941146146576,
+        "balanced_accuracy": 0.9766922490639383,
+        "precision": 0.9899554845337291,
+        "recall": 0.9551762114537445,
+        "specificity": 0.9982082866741321,
+        "false_positive_rate": 0.0017917133258679163,
+        "f1": 0.9722549184462755,
+        "confusion_matrix": [
+          [
+            98054,
+            176
+          ],
+          [
+            814,
+            17346
+          ]
+        ]
+      },
+      "roc_auc": 0.9990955725818351,
+      "pr_auc": 0.9963849958581334,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.7694131594546533,
+          "icmp": 0.9970131421744325,
+          "pulse": 0.9885386819484241,
+          "syn_spoof": 1.0,
+          "udp": 0.9826732673267327
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.0027732840305061245,
+          "flash": 0.0030378842030021444
+        },
+        "macro_recall": 0.9475276501808485
+      },
+      "seed": 0,
+      "info": {
+        "trees": 147
+      },
+      "test_rows": 116390,
+      "test_scenarios": 28
+    },
+    {
+      "tuned": {
+        "threshold": 0.09252163899696035,
+        "accuracy": 0.9877293369663942,
+        "balanced_accuracy": 0.9869372086610967,
+        "precision": 0.9591147634351735,
+        "recall": 0.9855363263941143,
+        "specificity": 0.9883380909280791,
+        "false_positive_rate": 0.011661909071920884,
+        "f1": 0.9721460528214749,
+        "confusion_matrix": [
+          [
+            85173,
+            1005
+          ],
+          [
+            346,
+            23576
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.99094459582198,
+        "balanced_accuracy": 0.9815320342180807,
+        "precision": 0.9932441154955033,
+        "recall": 0.9648858791070981,
+        "specificity": 0.9981781893290631,
+        "false_positive_rate": 0.0018218106709368964,
+        "f1": 0.9788596509828037,
+        "confusion_matrix": [
+          [
+            86021,
+            157
+          ],
+          [
+            840,
+            23082
+          ]
+        ]
+      },
+      "roc_auc": 0.9991951306509009,
+      "pr_auc": 0.9976780162519033,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.7920727745289149,
+          "icmp": 0.999231950844854,
+          "pulse": 0.9953810623556582,
+          "syn_spoof": 1.0,
+          "udp": 0.9790145985401459
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.006175438596491228,
+          "flash": 0.00762642262114279
+        },
+        "macro_recall": 0.9531400772539145
+      },
+      "seed": 1,
+      "info": {
+        "trees": 168
+      },
+      "test_rows": 110100,
+      "test_scenarios": 28
+    },
+    {
+      "tuned": {
+        "threshold": 0.08975023120943525,
+        "accuracy": 0.9844202898550725,
+        "balanced_accuracy": 0.9830608156496962,
+        "precision": 0.9324600471574535,
+        "recall": 0.9809823052753431,
+        "specificity": 0.9851393260240492,
+        "false_positive_rate": 0.014860673975950811,
+        "f1": 0.956105947456079,
+        "confusion_matrix": [
+          [
+            85450,
+            1289
+          ],
+          [
+            345,
+            17796
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9892543859649123,
+        "balanced_accuracy": 0.9749974582502967,
+        "precision": 0.9841775754126352,
+        "recall": 0.9531999338514966,
+        "specificity": 0.9967949826490967,
+        "false_positive_rate": 0.003205017350903283,
+        "f1": 0.9684410965808854,
+        "confusion_matrix": [
+          [
+            86461,
+            278
+          ],
+          [
+            849,
+            17292
+          ]
+        ]
+      },
+      "roc_auc": 0.9988901301154753,
+      "pr_auc": 0.9955606963397846,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.8013745704467354,
+          "icmp": 0.9994036970781157,
+          "pulse": 0.986013986013986,
+          "syn_spoof": 1.0,
+          "udp": 0.9613259668508287
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.011844131232974061,
+          "flash": 0.008825622775800712
+        },
+        "macro_recall": 0.9496236440779331
+      },
+      "seed": 2,
+      "info": {
+        "trees": 156
+      },
+      "test_rows": 104880,
+      "test_scenarios": 28
+    }
+  ],
+  "FNN": [
+    {
+      "tuned": {
+        "threshold": 0.6878429651260376,
+        "accuracy": 0.991708909700146,
+        "balanced_accuracy": 0.9842705591614753,
+        "precision": 0.9734045482076978,
+        "recall": 0.9734581497797357,
+        "specificity": 0.9950829685432149,
+        "false_positive_rate": 0.004917031456785126,
+        "f1": 0.97343134825583,
+        "confusion_matrix": [
+          [
+            97747,
+            483
+          ],
+          [
+            482,
+            17678
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9896039178623594,
+        "balanced_accuracy": 0.9864348136016299,
+        "precision": 0.9529663281667557,
+        "recall": 0.9818281938325991,
+        "specificity": 0.9910414333706606,
+        "false_positive_rate": 0.00895856662933936,
+        "f1": 0.9671819907784106,
+        "confusion_matrix": [
+          [
+            97350,
+            880
+          ],
+          [
+            330,
+            17830
+          ]
+        ]
+      },
+      "roc_auc": 0.9992168303531987,
+      "pr_auc": 0.9965897153842393,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.7296976882039122,
+          "icmp": 0.998805256869773,
+          "pulse": 1.0,
+          "syn_spoof": 1.0,
+          "udp": 0.9851485148514851
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.0005777675063554426,
+          "flash": 0.0017869907076483202
+        },
+        "macro_recall": 0.9427302919850341
+      },
+      "seed": 0,
+      "info": {
+        "epochs": 10,
+        "parameters": 3137
+      },
+      "test_rows": 116390,
+      "test_scenarios": 28
+    },
+    {
+      "tuned": {
+        "threshold": 0.3389226794242859,
+        "accuracy": 0.9893642143505904,
+        "balanced_accuracy": 0.9870906989874022,
+        "precision": 0.9684552979450645,
+        "recall": 0.9830699774266366,
+        "specificity": 0.9911114205481677,
+        "false_positive_rate": 0.008888579451832301,
+        "f1": 0.9757079141167928,
+        "confusion_matrix": [
+          [
+            85412,
+            766
+          ],
+          [
+            405,
+            23517
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9908537693006357,
+        "balanced_accuracy": 0.9860038100572666,
+        "precision": 0.9804184661830685,
+        "recall": 0.9774266365688488,
+        "specificity": 0.9945809835456845,
+        "false_positive_rate": 0.005419016454315528,
+        "f1": 0.9789202654330033,
+        "confusion_matrix": [
+          [
+            85711,
+            467
+          ],
+          [
+            540,
+            23382
+          ]
+        ]
+      },
+      "roc_auc": 0.9992405336218371,
+      "pr_auc": 0.9977294499486898,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.7719298245614035,
+          "icmp": 1.0,
+          "pulse": 0.9953810623556582,
+          "syn_spoof": 1.0,
+          "udp": 0.9525547445255474
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.004491228070175438,
+          "flash": 0.004751847940865892
+        },
+        "macro_recall": 0.9439731262885218
+      },
+      "seed": 1,
+      "info": {
+        "epochs": 19,
+        "parameters": 3137
+      },
+      "test_rows": 110100,
+      "test_scenarios": 28
+    },
+    {
+      "tuned": {
+        "threshold": 0.2154470980167389,
+        "accuracy": 0.9835812356979405,
+        "balanced_accuracy": 0.9812021044000256,
+        "precision": 0.930967504855898,
+        "recall": 0.9775646326001874,
+        "specificity": 0.984839576199864,
+        "false_positive_rate": 0.015160423800136047,
+        "f1": 0.9536972304382899,
+        "confusion_matrix": [
+          [
+            85424,
+            1315
+          ],
+          [
+            407,
+            17734
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9875572082379863,
+        "balanced_accuracy": 0.9778513388400004,
+        "precision": 0.9649801148917366,
+        "recall": 0.963011961854363,
+        "specificity": 0.9926907158256378,
+        "false_positive_rate": 0.007309284174362163,
+        "f1": 0.9639950337977652,
+        "confusion_matrix": [
+          [
+            86105,
+            634
+          ],
+          [
+            671,
+            17470
+          ]
+        ]
+      },
+      "roc_auc": 0.9980893978515911,
+      "pr_auc": 0.9936997270605651,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.7615120274914089,
+          "icmp": 0.9994036970781157,
+          "pulse": 0.9883449883449883,
+          "syn_spoof": 1.0,
+          "udp": 0.9573796369376479
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.013265426980930948,
+          "flash": 0.009893238434163702
+        },
+        "macro_recall": 0.9413280699704322
+      },
+      "seed": 2,
+      "info": {
+        "epochs": 20,
+        "parameters": 3137
+      },
+      "test_rows": 104880,
+      "test_scenarios": 28
+    }
+  ],
+  "LSTM": [
+    {
+      "tuned": {
+        "threshold": 0.4837765395641327,
+        "accuracy": 0.9960391786235931,
+        "balanced_accuracy": 0.9940625951589837,
+        "precision": 0.9835528113217857,
+        "recall": 0.9911894273127754,
+        "specificity": 0.9969357630051919,
+        "false_positive_rate": 0.003064236994808067,
+        "f1": 0.9873563533638683,
+        "confusion_matrix": [
+          [
+            97929,
+            301
+          ],
+          [
+            160,
+            18000
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9960649540338518,
+        "balanced_accuracy": 0.9939656507181518,
+        "precision": 0.9839785651793526,
+        "recall": 0.9909140969162996,
+        "specificity": 0.9970172045200041,
+        "false_positive_rate": 0.0029827954799959144,
+        "f1": 0.9874341527655838,
+        "confusion_matrix": [
+          [
+            97937,
+            293
+          ],
+          [
+            165,
+            17995
+          ]
+        ]
+      },
+      "roc_auc": 0.999759564781209,
+      "pr_auc": 0.9990272697449507,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.915234143449911,
+          "icmp": 1.0,
+          "pulse": 0.9570200573065902,
+          "syn_spoof": 1.0,
+          "udp": 0.9987623762376238
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.0016177490177952392,
+          "flash": 0.0006254467476769121
+        },
+        "macro_recall": 0.9742033153988249
+      },
+      "seed": 0,
+      "info": {
+        "epochs": 14,
+        "parameters": 6817
+      },
+      "test_rows": 116390,
+      "test_scenarios": 28
+    },
+    {
+      "tuned": {
+        "threshold": 0.4644162952899933,
+        "accuracy": 0.9960853769300636,
+        "balanced_accuracy": 0.994449299625952,
+        "precision": 0.9904380141133241,
+        "recall": 0.9915558899757545,
+        "specificity": 0.9973427092761493,
+        "false_positive_rate": 0.0026572907238506804,
+        "f1": 0.9909966367947192,
+        "confusion_matrix": [
+          [
+            85949,
+            229
+          ],
+          [
+            202,
+            23720
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9961762034514078,
+        "balanced_accuracy": 0.9944620211211979,
+        "precision": 0.9909748046630176,
+        "recall": 0.9914304824011371,
+        "specificity": 0.9974935598412588,
+        "false_positive_rate": 0.002506440158741241,
+        "f1": 0.9912025911607982,
+        "confusion_matrix": [
+          [
+            85962,
+            216
+          ],
+          [
+            205,
+            23717
+          ]
+        ]
+      },
+      "roc_auc": 0.9997268545665566,
+      "pr_auc": 0.9989053372289348,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.9200779727095516,
+          "icmp": 1.0,
+          "pulse": 0.9861431870669746,
+          "syn_spoof": 1.0,
+          "udp": 0.9333941605839416
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.0005614035087719298,
+          "flash": 0.0012906253666549337
+        },
+        "macro_recall": 0.9679230640720936
+      },
+      "seed": 1,
+      "info": {
+        "epochs": 15,
+        "parameters": 6817
+      },
+      "test_rows": 110100,
+      "test_scenarios": 28
+    },
+    {
+      "tuned": {
+        "threshold": 0.31728503108024597,
+        "accuracy": 0.9925343249427918,
+        "balanced_accuracy": 0.9854378318317463,
+        "precision": 0.9821130985446062,
+        "recall": 0.9745879499476324,
+        "specificity": 0.9962877137158602,
+        "false_positive_rate": 0.0037122862841397763,
+        "f1": 0.9783360540076916,
+        "confusion_matrix": [
+          [
+            86417,
+            322
+          ],
+          [
+            461,
+            17680
+          ]
+        ]
+      },
+      "default": {
+        "threshold": 0.5,
+        "accuracy": 0.9929061784897025,
+        "balanced_accuracy": 0.9844419866237513,
+        "precision": 0.9872836255671951,
+        "recall": 0.9715010197894273,
+        "specificity": 0.9973829534580754,
+        "false_positive_rate": 0.002617046541924628,
+        "f1": 0.9793287397199377,
+        "confusion_matrix": [
+          [
+            86512,
+            227
+          ],
+          [
+            517,
+            17624
+          ]
+        ]
+      },
+      "roc_auc": 0.9985130895310012,
+      "pr_auc": 0.9955245821535177,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.8082474226804124,
+          "icmp": 1.0,
+          "pulse": 0.9976689976689976,
+          "syn_spoof": 1.0,
+          "udp": 0.8571428571428571
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.0028425914959137747,
+          "flash": 0.002135231316725979
+        },
+        "macro_recall": 0.9326118554984534
+      },
+      "seed": 2,
+      "info": {
+        "epochs": 21,
+        "parameters": 6817
+      },
+      "test_rows": 104880,
+      "test_scenarios": 28
+    }
+  ]
+}

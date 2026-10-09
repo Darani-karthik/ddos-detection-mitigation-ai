@@ -1,0 +1,126 @@
+{
+  "scenario_wise": [
+    {
+      "f1": 0.972605369237941,
+      "recall": 0.9765418502202643,
+      "roc_auc": 0.9990955725818351,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.7694131594546533,
+          "icmp": 0.9970131421744325,
+          "pulse": 0.9885386819484241,
+          "syn_spoof": 1.0,
+          "udp": 0.9826732673267327
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.0027732840305061245,
+          "flash": 0.0030378842030021444
+        },
+        "macro_recall": 0.9475276501808485
+      },
+      "test_scenarios_also_in_training": 0
+    },
+    {
+      "f1": 0.9721460528214749,
+      "recall": 0.9855363263941143,
+      "roc_auc": 0.9991951306509009,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.7920727745289149,
+          "icmp": 0.999231950844854,
+          "pulse": 0.9953810623556582,
+          "syn_spoof": 1.0,
+          "udp": 0.9790145985401459
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.006175438596491228,
+          "flash": 0.00762642262114279
+        },
+        "macro_recall": 0.9531400772539145
+      },
+      "test_scenarios_also_in_training": 0
+    },
+    {
+      "f1": 0.956105947456079,
+      "recall": 0.9809823052753431,
+      "roc_auc": 0.9988901301154753,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.8013745704467354,
+          "icmp": 0.9994036970781157,
+          "pulse": 0.986013986013986,
+          "syn_spoof": 1.0,
+          "udp": 0.9613259668508287
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.011844131232974061,
+          "flash": 0.008825622775800712
+        },
+        "macro_recall": 0.9496236440779331
+      },
+      "test_scenarios_also_in_training": 0
+    }
+  ],
+  "random_rows": [
+    {
+      "f1": 0.9876790143211457,
+      "recall": 0.9932416123581945,
+      "roc_auc": 0.9998667860621339,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.8996784565916399,
+          "icmp": 1.0,
+          "pulse": 1.0,
+          "syn_spoof": 1.0,
+          "udp": 0.9909977494373593
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.001508088840142583,
+          "flash": 0.0013913581201205844
+        },
+        "macro_recall": 0.9781352412057999
+      },
+      "test_scenarios_also_in_training": 120
+    },
+    {
+      "f1": 0.9870086188774438,
+      "recall": 0.9923070420153859,
+      "roc_auc": 0.9998296721940427,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.8934592043155766,
+          "icmp": 0.9984459984459985,
+          "pulse": 0.985981308411215,
+          "syn_spoof": 1.0,
+          "udp": 0.9875195007800313
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.0008856088560885609,
+          "flash": 0.0014137214137214136
+        },
+        "macro_recall": 0.9730812023905642
+      },
+      "test_scenarios_also_in_training": 120
+    },
+    {
+      "f1": 0.9888685608481936,
+      "recall": 0.9941056550257047,
+      "roc_auc": 0.999876202920316,
+      "breakdown": {
+        "recall_by_attack": {
+          "http": 0.9146685472496474,
+          "icmp": 1.0,
+          "pulse": 0.9973118279569892,
+          "syn_spoof": 1.0,
+          "udp": 0.9908713692946058
+        },
+        "false_alarm_by_kind": {
+          "normal": 0.0010839269123567668,
+          "flash": 0.0013854013334487834
+        },
+        "macro_recall": 0.9805703489002486
+      },
+      "test_scenarios_also_in_training": 120
+    }
+  ]
+}

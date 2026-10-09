@@ -1,0 +1,20 @@
+{
+  "threshold": 0.17350375085036307,
+  "features": [
+    "pktcount",
+    "bytecount",
+    "avg_pkt_size",
+    "pktrate",
+    "kbps",
+    "flow_age",
+    "pair_flow",
+    "proto_tcp",
+    "proto_udp",
+    "proto_icmp",
+    "sw_flows",
+    "sw_packetins",
+    "sw_pktrate",
+    "sw_kbps",
+    "sw_entropy"
+  ]
+}

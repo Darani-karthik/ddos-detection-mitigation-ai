@@ -1,0 +1,54 @@
+{
+  "scenarios": 120,
+  "records": 489315,
+  "attack_records": 105245,
+  "by_kind": {
+    "flash": {
+      "scenarios": 8,
+      "records": 53924,
+      "attack_records": 0
+    },
+    "http": {
+      "scenarios": 18,
+      "records": 59078,
+      "attack_records": 5279
+    },
+    "icmp": {
+      "scenarios": 18,
+      "records": 62123,
+      "attack_records": 4758
+    },
+    "mixed": {
+      "scenarios": 12,
+      "records": 64656,
+      "attack_records": 25142
+    },
+    "normal": {
+      "scenarios": 16,
+      "records": 30378,
+      "attack_records": 0
+    },
+    "pulse": {
+      "scenarios": 12,
+      "records": 49429,
+      "attack_records": 1188
+    },
+    "syn_spoof": {
+      "scenarios": 18,
+      "records": 117109,
+      "attack_records": 63733
+    },
+    "udp": {
+      "scenarios": 18,
+      "records": 52618,
+      "attack_records": 5145
+    }
+  },
+  "attack_records_by_type": {
+    "http": 6737,
+    "icmp": 5630,
+    "pulse": 1780,
+    "syn_spoof": 85329,
+    "udp": 5769
+  }
+}
