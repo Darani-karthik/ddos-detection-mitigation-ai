@@ -1,0 +1,24 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      # TensorFlow is left out on purpose: the FNN / LSTM tests skip themselves without it,
+      # everything else (simulator, features, GNB, LightGBM, mitigation, runtime) is tested.
+      - name: Install test dependencies
+        run: pip install numpy pandas scikit-learn lightgbm matplotlib pytest
+      - name: Run tests
+        run: python -m pytest -q
