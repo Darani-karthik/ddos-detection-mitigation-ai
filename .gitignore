@@ -1,0 +1,29 @@
+# Simulated data cache (regenerated deterministically)
+cache/
+*.pkl
+
+# Captures and models from your own Mininet runs
+capture*.csv
+experiment*.json
+labeled*.csv
+results_capture/
+models_capture/
+results_quick/
+models_quick/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

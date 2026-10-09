@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ddos-detection-mitigation-ai"
+version = "1.0.0"
+description = "DDoS detection (GNB, LightGBM, FNN, LSTM) and mitigation for software-defined networks"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "lightgbm>=4.0",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+deep = ["tensorflow>=2.16"]     # the FNN and LSTM detectors
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["ddos_ai*"]
